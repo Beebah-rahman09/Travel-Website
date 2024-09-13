@@ -11,7 +11,49 @@
 }
 .header-top h4 {
     color: #25A59E;
+    font-family: "Gilda display";
+    font: weight 400px; 
+    font-size: 24px;
+
 }
 span {
     color: #25A59E;
+}
+.Travel-around {
+    font-family: "Gilda display";
+    font: weight 400px; 
+    font-size: 74px;
+    text-align: center;
+}
+.image-container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    top: 100px;
+}
+
+.ellipse {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(7.5%);
+}
+
+.header-image {
+    position: absolute;
+    width: 92%;
+    top: 0;
+    left: 0;
+    transform: translateX(6%);
+    margin-top: -18px;
+}
+
+.blur {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(-35%);
 }
